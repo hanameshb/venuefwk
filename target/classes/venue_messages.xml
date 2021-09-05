@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+                           http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-2.5.xsd
+                           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+                           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd">
+
+ 
+  <util:map id="errorMessages" map-class="java.util.HashMap">
+        <entry key="400" value="Server cannot decipher client requests because of syntactical errors."/>
+        <entry key="401" value="The client is not authorized to access the resource but may be able to gain access after authentication." />
+        <entry key="403" value="Forbidden return when your server will not let the client gain access to the resource and authentication will not help." />
+        <entry key="404" value="The resource is not found." />
+        <entry key="413" value="The body of a POST of PUT request is too large." />
+        <entry key="415" value="The message body in a format that the server does not understand." />
+        <entry key="500" value="Internal Server Error" />
+        <entry key="503" value="The server cannot fulfill the request either for some specific interval or for an undetermined amount of time." />
+        <entry key="1001" value="Required parameter missing" />
+        <entry key="1002" value="Invalid parameter value" />
+        <entry key="1003" value="Parameter value out of allowable range" />
+        <entry key="1004" value="You have already register beacon with this userid" />
+        <entry key="1005" value="No data found." />
+        <entry key="1006" value="My Schedule data not available." />
+        <entry key="1007" value="user location detection off" />
+        <entry key="1008" value="User Deatils Mising" />
+        <entry key="1009" value="App User Not Exists" />
+        <entry key="200" value="Success" />
+        <entry key="unknown" value="Unknown Error Code" />        
+  </util:map>
+</beans>

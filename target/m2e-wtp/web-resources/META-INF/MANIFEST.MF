@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: VenueFwk
+Build-Number: NONE - not built on CI
+SCM-Revision: NONE - not built on CI
+Built-By: mastmobilemedia
+Build-Time: 2021-08-31T11:37:12Z
+Build-Url: NONE - not built on CI
+Version: 0.0.1-SNAPSHOT
+Build-Jdk: 1.8.0_241
+Created-By: Maven Integration for Eclipse
+

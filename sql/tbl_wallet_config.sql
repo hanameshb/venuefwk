@@ -1,0 +1,1 @@
+alter table tbl_wallet_config add column account_menu_id varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL after sponsor_menu_id;
